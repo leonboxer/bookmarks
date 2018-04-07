@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login
-from .forms import LoginForm, UserRegistrationForm, \
+from .forms import LoginForm, UserRegistrationForm,\
     UserEditForm, ProfileEditForm
 from django.contrib.auth.decorators import login_required
 from .models import Profile
@@ -56,6 +56,7 @@ def register(request):
     return render(request,
                   'account/register.html',
                   {'user_form': user_form})
+
 
 @login_required
 def edit(request):
