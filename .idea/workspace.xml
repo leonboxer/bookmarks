@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0898cc2-b6d4-4fbe-83ae-936cc2462cf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/views.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -467,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523103801472</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="images">
+      <created>1523104161703</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523104161703</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
