@@ -1,6 +1,7 @@
 from django.db import models
 from django.conf import settings
 from django.utils.text import slugify
+from django.core.urlresolvers import reverse
 
 
 class Image(models.Model):
